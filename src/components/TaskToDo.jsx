@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const TaskToDo = ({ task, removeTask, concluirTask }) => {
   return (
     <div className="flex justify-center items-center gap-3 ">
-      <p className="break-all text-white w-72 px-3.5 border-solid border border-cyan-500 rounded-lg bg-gradient-to-r from-sky-500 to-indigo-500">
+      <p className="break-all text-white w-56 px-3.5 border-solid border border-cyan-500 rounded-lg bg-gradient-to-r from-sky-500 to-indigo-500 tablet:w-72">
         {task.descricao}
       </p>
 
