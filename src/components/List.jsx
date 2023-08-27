@@ -37,8 +37,6 @@ const List = () => {
     setList(newList);
   };
 
-  console.log(list.length);
-
   return (
     <>
       <form onSubmit={(e) => addTask(e)} className="flex items-center gap-2 top-0 ">
