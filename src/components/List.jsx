@@ -52,7 +52,7 @@ const List = () => {
         <button className="bg-cyan-500 rounded-xl p-2 text-white">Add</button>
       </form>
       <div className="flex flex-col items-center h-80 w-80 gap-3 p-4 top-16 border-solid border-2 border-cyan-600 rounded-md overflow-y-auto overflow-x-hidden scrollbar-thin scrollbar-thumb-cyan-600 tablet:w-[30rem] tablet:h-[40rem] laptop:w-[30rem] laptop:h-80 desktop:w-[40rem] desktop:h-96">
-        <h2 className="text-2xl text-cyan-500 font-bold">Taks to Do</h2>
+        <h2 className="text-2xl text-cyan-500 font-bold">Tasks to Do</h2>
         {list.length !== 0 ? (
           <Tasks
             list={list}
